@@ -1,0 +1,30 @@
+body{
+    background-color: #3BC6F3;
+}
+.game-grid{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:fit-content;
+    margin: 50px auto;
+}
+.cell{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(143, 194, 143);
+}
+#res{
+    text-decoration: none;
+    border:none;
+    color:rgb(0, 66, 128);
+    background-color: rgb(38, 255, 172);
+    padding:10px;
+}
+#win{
+    margin: 20%;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    display: none;
+}
